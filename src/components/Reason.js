@@ -1,6 +1,6 @@
 import React from "react";
 import "../style/Reason.css";
-import group from "../assets/group.png";
+import group from "../assets/group2.jpeg";
 
 function Reason() {
   return (
