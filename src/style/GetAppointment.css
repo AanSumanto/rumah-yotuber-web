@@ -1,0 +1,76 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .appointment-section {
+    margin: 20px;
+    padding: 40px 20px;
+    background-color: #28a745; /* Warna hijau latar belakang */
+    background-image: url("data:image/svg+xml;base64,..."); /* Tambahkan pola jika diperlukan */
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    text-align: center;
+  }
+  
+  .appointment-container {
+    max-width: 800px;
+    margin: 0 auto;
+    color: #fff;
+  }
+  
+  .appointment-subtitle {
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 10px;
+  }
+  
+  .appointment-title {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1.4;
+    margin-bottom: 20px;
+  }
+  
+  .appointment-button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .appointment-button:hover {
+    background-color: #444;
+  }
+  
+  /* Responsiveness */
+  @media (max-width: 768px) {
+    .appointment-title {
+      font-size: 28px;
+    }
+  
+    .appointment-button {
+      padding: 12px 24px;
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .appointment-title {
+      font-size: 24px;
+    }
+  
+    .appointment-button {
+      padding: 10px 20px;
+      font-size: 12px;
+    }
+  }
+  

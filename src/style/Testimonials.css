@@ -1,0 +1,123 @@
+.testimonials {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .container-testimonial {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .testimonials-title {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #000;
+  }
+  
+  .carousel-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+  }
+  
+  .carousel-btn {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #555;
+    transition: color 0.3s;
+  }
+  
+  .carousel-btn:hover {
+    color: #000;
+  }
+  
+  .testimonial-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 55px;
+    max-width: 500px;
+    width: 100%;
+    text-align: left;
+  }
+  
+  .testimonial-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .testimonial-photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .testimonial-info {
+    flex-grow: 1;
+    text-align: left;
+  }
+  
+  .testimonial-name {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+    color: #333;
+  }
+  
+  .testimonial-date {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0 0;
+  }
+  
+  .testimonial-stars {
+    font-size: 16px;
+    color: #f39c12;
+  }
+  
+  .testimonial-feedback {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.5;
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    .testimonials-title {
+      font-size: 24px;
+    }
+  
+    .testimonial-card {
+      padding: 35px;
+    }
+  
+    .testimonial-photo {
+      width: 40px;
+      height: 40px;
+    }
+  
+    .testimonial-name {
+      font-size: 14px;
+    }
+  
+    .testimonial-feedback {
+      font-size: 13px;
+    }
+  
+    .carousel-btn {
+      font-size: 20px;
+    }
+  }
+  

@@ -1,0 +1,138 @@
+.header {
+    background-color: #f3fefa;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #e0e0e0;
+    position: relative;
+  }
+  
+  .container-header {
+    width: 90%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #00b894;
+  }
+  
+  .menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav.web-view {
+    position: static;
+    background: none;
+    flex-direction: row;
+  }
+  
+  .nav.open {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(243, 254, 250, 0.95);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .close-menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+  }
+  
+  .nav.open .close-menu {
+    display: block;
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    text-align: center;
+  }
+  
+  .nav.open .nav-list {
+    flex-direction: column;
+  }
+  
+  .nav-list li a {
+    text-decoration: none;
+    color: #2d3436;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  .nav-list li a:hover {
+    color: #00b894;
+  }
+  
+  .auth-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .btn {
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+  }
+  
+  .btn-login {
+    background-color: transparent;
+    color: #2d3436;
+    border: 1px solid #2d3436;
+  }
+  
+  .btn-login:hover {
+    background-color: #2d3436;
+    color: #fff;
+  }
+  
+  .btn-signup {
+    background-color: #00b894;
+    color: #fff;
+  }
+  
+  .btn-signup:hover {
+    background-color: #019b7f;
+  }
+  
+  @media (max-width: 768px) {
+    .menu-toggle {
+      display: block;
+    }
+  
+    .auth-buttons {
+      display: none;
+    }
+  
+    .nav {
+      display: none;
+    }
+  }
