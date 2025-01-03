@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/rumah-yotuber-web/static/css/main.6bdd2ca9.css",
-    "main.js": "/rumah-yotuber-web/static/js/main.11b6adf9.js",
+    "main.js": "/rumah-yotuber-web/static/js/main.8aa292e7.js",
     "static/js/488.49156c2e.chunk.js": "/rumah-yotuber-web/static/js/488.49156c2e.chunk.js",
-    "static/media/group.png": "/rumah-yotuber-web/static/media/group.aa1e6d25600895e50a2c.png",
+    "static/media/group2.jpeg": "/rumah-yotuber-web/static/media/group2.165c407d796a8e0a3a3c.jpeg",
     "static/media/hero-image.png": "/rumah-yotuber-web/static/media/hero-image.2eef28b56ee2aea8b750.png",
     "index.html": "/rumah-yotuber-web/index.html",
     "main.6bdd2ca9.css.map": "/rumah-yotuber-web/static/css/main.6bdd2ca9.css.map",
-    "main.11b6adf9.js.map": "/rumah-yotuber-web/static/js/main.11b6adf9.js.map",
+    "main.8aa292e7.js.map": "/rumah-yotuber-web/static/js/main.8aa292e7.js.map",
     "488.49156c2e.chunk.js.map": "/rumah-yotuber-web/static/js/488.49156c2e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6bdd2ca9.css",
-    "static/js/main.11b6adf9.js"
+    "static/js/main.8aa292e7.js"
   ]
 }
