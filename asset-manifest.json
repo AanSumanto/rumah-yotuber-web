@@ -1,18 +1,19 @@
 {
   "files": {
     "main.css": "/rumah-yotuber-web/static/css/main.5f58664f.css",
-    "main.js": "/rumah-yotuber-web/static/js/main.bcc53095.js",
+    "main.js": "/rumah-yotuber-web/static/js/main.4a9afa4d.js",
     "static/js/488.49156c2e.chunk.js": "/rumah-yotuber-web/static/js/488.49156c2e.chunk.js",
     "static/media/group2.jpeg": "/rumah-yotuber-web/static/media/group2.165c407d796a8e0a3a3c.jpeg",
-    "static/media/hero-image.png": "/rumah-yotuber-web/static/media/hero-image.2eef28b56ee2aea8b750.png",
+    "static/media/hero-image.png": "/rumah-yotuber-web/static/media/hero-image.b8e05c8c90afdd22acfc.png",
     "static/media/logo2.png": "/rumah-yotuber-web/static/media/logo2.733e8e1f66dae414d628.png",
+    "static/media/doctor-2.png": "/rumah-yotuber-web/static/media/doctor-2.833d4e5c323967b521b7.png",
     "index.html": "/rumah-yotuber-web/index.html",
     "main.5f58664f.css.map": "/rumah-yotuber-web/static/css/main.5f58664f.css.map",
-    "main.bcc53095.js.map": "/rumah-yotuber-web/static/js/main.bcc53095.js.map",
+    "main.4a9afa4d.js.map": "/rumah-yotuber-web/static/js/main.4a9afa4d.js.map",
     "488.49156c2e.chunk.js.map": "/rumah-yotuber-web/static/js/488.49156c2e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5f58664f.css",
-    "static/js/main.bcc53095.js"
+    "static/js/main.4a9afa4d.js"
   ]
 }
