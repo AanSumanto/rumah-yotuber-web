@@ -3,7 +3,7 @@ import React from "react";
 import "../style/CallToAction.css";
 import doctor1 from "../assets/doctor-1.png";
 import doctor2 from "../assets/doctor-2.png";
-import doctor3 from "../assets/doctor-3.png";
+// import doctor3 from "../assets/doctor-3.png";
 
 function CallToAction() {
   return (
@@ -23,7 +23,7 @@ function CallToAction() {
           <div className="cta-doctors">
             <img src={doctor1} alt="Doctor 1" className="doctor-image" />
             <img src={doctor2} alt="Doctor 2" className="doctor-image" />
-            <img src={doctor3} alt="Doctor 3" className="doctor-image" />
+            {/* <img src={doctor3} alt="Doctor 3" className="doctor-image" /> */}
             <span>Our Doctors are waiting for your service.</span>
           </div>
         </div>
