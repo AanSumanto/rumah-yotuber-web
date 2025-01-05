@@ -8,8 +8,9 @@ function Footer() {
         <div className="footer-brand">
           <h2 className="brand-name">Rumah YoTuBer</h2>
           <p className="brand-description">
-            Eu sit proin amet quis malesuada vitae elit. Vel consectetur nibh
-            quis ullamcorper quis. Quam enim tortor, id sed
+            Jl. Ade Irma Nasution no.1247 RT.22 RW.08 Kel Sei Pangeran,
+            Kecamatan Ilir Timur Satu, Palembang Sumatera Selatan Telp. 0896
+            5922 1893
           </p>
           <div className="social-icons">
             <a href="https://www.facebook.com" aria-label="Facebook">
@@ -69,11 +70,9 @@ function Footer() {
         <div className="footer-location">
           <h4>Location</h4>
           <address>
-            2972 Westheimer Rd.
-            <br />
-            Santa Ana, Illinois
-            <br />
-            85486
+            Jl. Ade Irma Nasution no.1247 RT/RW. 22/08 Kelurahan Sei Pangeran,
+            Kecamatan Ilir Timur Satu, Palembang Sumatera Selatan
+            <p> Telp. 0896 5922 1893 </p>
           </address>
         </div>
       </div>

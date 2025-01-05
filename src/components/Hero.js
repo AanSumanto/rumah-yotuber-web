@@ -10,11 +10,10 @@ function Hero() {
         <div className="hero-wrapper">
           <div className="hero-content">
             <h1 className="hero-title">
-              We Will Help You To Improve Your Mental Health
+              Bersama Melengkapi, Bersama Menguatkan
             </h1>
             <p className="hero-description">
-              Eu sit proin amet quis malesuada vitae elit. Vel consectetur nibh
-              quis ullamcorper quis.
+              Bersama Kita Wujudkan Kepedulian dan Perubahan
             </p>
             <div className="hero-buttons">
               <button className="btn btn-appointment">Get Appointment</button>

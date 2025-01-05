@@ -1,6 +1,7 @@
 // components/Header.js
 import React, { useState } from "react";
 import "../style/Header.css";
+import Logo from "../assets/logo2.png";
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -12,7 +13,10 @@ function Header() {
   return (
     <header className="header">
       <div className="container-header">
-        <div className="logo">Rumah YoTuBer</div>
+        <div className="logo-container">
+          <img src={Logo} alt="Logo Rumah YoTuBer" className="logo-image" />
+          <div className="logo-text">Rumah YoTuBer</div>
+        </div>
         <button className="menu-toggle" onClick={toggleMenu}>
           {isMenuOpen ? "✕" : "☰"}
         </button>
