@@ -141,6 +141,11 @@
   .btn-signup:hover {
     background-color: #019b7f;
   }
+
+  [id] {
+    scroll-margin-top: 80px; /* Sesuaikan dengan tinggi header jika tetap di atas */
+  }
+  
   
   @media (max-width: 768px) {
     .menu-toggle {

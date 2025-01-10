@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom"; // Import Link dari React Router
 import "../style/Header.css";
 import Logo from "../assets/logo2.png";
+import { HashLink } from "react-router-hash-link";
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -34,24 +35,24 @@ function Header() {
           )}
           <ul className="nav-list">
             <li>
-              <Link to="/" onClick={closeMenu}>
+              <HashLink to="/" onClick={closeMenu}>
                 Home
-              </Link>
+              </HashLink>
             </li>
             <li>
-              <a href="#services" onClick={closeMenu}>
+              <HashLink smooth to="/#services" onClick={closeMenu}>
                 Services
-              </a>
+              </HashLink>
             </li>
             <li>
-              <a href="#testimonials" onClick={closeMenu}>
+              <HashLink smooth to="/#testimonials" onClick={closeMenu}>
                 Testimonials
-              </a>
+              </HashLink>
             </li>
             <li>
-              <a href="#contact" onClick={closeMenu}>
+              <HashLink smooth to="/#contact" onClick={closeMenu}>
                 Contact
-              </a>
+              </HashLink>
             </li>
             <li>
               <Link to="/about-coaching" onClick={closeMenu}>
