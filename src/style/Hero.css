@@ -9,6 +9,7 @@
   margin: 0 auto;
 }
 
+
 .hero-wrapper {
   display: flex;
   align-items: center;
@@ -69,21 +70,89 @@
   color: #fff;
 }
 
+
+.hero-images-container {
+  display: flex;
+  /* justify-content: center; */
+  justify-content: flex-start;
+  align-items: center;
+  gap: 50px;
+  margin-top: 20px;
+}
+
+.hero-image-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
 .hero-image {
   flex: 1; /* Ambil ruang penuh di mobile */
   text-align: center; /* Pastikan gambar berada di tengah */
 }
-
-/* .hero-image img {
-  max-width: 100%;
-  height: auto;
-} */
-
+ 
 .hero-images {
   display: flex;
   justify-content: center;
   gap: 20px;
-  flex-wrap: wrap; /* Responsif: membungkus gambar di perangkat kecil */
+  margin-top: 20px;
+}
+
+.hero-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #e8fdf5;
+  border-radius: 50%; /* Membuat kontainer menjadi lingkaran */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 150px;
+  height: 150px; /* Ukuran harus sama untuk membuat lingkaran */
+  text-align: center;
+}
+
+.hero-image-circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; /* Membuat gambar berbentuk lingkaran */
+  object-fit: cover; /* Memastikan gambar tidak terdistorsi */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Tambahkan efek bayangan */
+}
+
+.hero-image-caption {
+  margin-top: 15px;
+}
+
+/* .doctor-name {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+} */
+
+.doctor-name {
+  font-size: 1.1rem; /* Ukuran lebih besar */
+  font-weight: 700; /* Tebal untuk menarik perhatian */
+  font-family: "Poppins", sans-serif; /* Font lebih modern, gunakan font yang sesuai */
+  color: #2c3e50; /* Warna lebih elegan */
+  text-align: center;
+  letter-spacing: 0.5px; /* Sedikit jarak antar huruf */
+}
+
+/* Tambahkan efek hover jika diperlukan */
+.doctor-name:hover {
+  color: #28a745; /* Ubah warna saat hover */
+  transition: color 0.3s ease; /* Transisi halus */
+}
+ 
+
+.hero-image-label {
+  font-size: 0.9rem;
+  color: #555;
+  font-weight: bold;
+  text-align: center;
 }
 
 .hero-image img {
@@ -99,8 +168,9 @@
 
 @media (max-width: 768px) {
   .hero-wrapper {
-    flex-direction: column-reverse; /* Pindahkan gambar ke bawah */
-    text-align: center; /* Pusatkan teks */
+    flex-direction: column-reverse;  
+    text-align: center;  
+    flex-direction: column; 
   }
 
   .hero-content {
@@ -108,8 +178,8 @@
   }
 
   .hero-image img {
-    max-width: 80%; /* Perbesar ukuran gambar pada mobile */
-    margin: -45px auto; /* Tambahkan jarak antar elemen */
+    max-width: 80%;  
+    margin: -45px auto; 
   }
 
   .hero {
@@ -117,5 +187,18 @@
     background-color: #e8fdf5;
   }
   
+  .hero-images-container {
+    flex-direction: column;
+    margin-top: 20px; /* Memberikan jarak di bawah deskripsi */
+    text-align: center; /* Pusatkan gambar pada tampilan mobile */
+  }
+  .hero-image-circle {
+    width: 120px;
+    height: 120px; /* Ukuran gambar lebih kecil di perangkat kecil */
+  }
+
+  .doctor-name {
+    font-size: 0.9rem;
+  }
   
 }

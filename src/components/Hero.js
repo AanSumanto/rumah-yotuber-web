@@ -1,4 +1,3 @@
-// export default Hero;
 import React from "react";
 import { Link } from "react-router-dom";
 import "../style/Hero.css";
@@ -29,13 +28,29 @@ function Hero() {
             </div>
           </div>
 
-          {/* Kontainer Gambar Hero */}
-          <div className="hero-images">
-            <div className="hero-image">
-              <img src={heroImage2} alt="Doctor 1" />
+          {/* Kontainer Gambar Hero dengan Efek Kartu */}
+          <div className="hero-images-container">
+            <div className="hero-image-item">
+              <img
+                src={heroImage2}
+                alt="Doctor 1"
+                className="hero-image-circle"
+              />
+              <div className="hero-image-caption">
+                <h4 className="doctor-name">dr. Yuliarni, M.Kes, SpKKLP</h4>
+              </div>
             </div>
-            <div className="hero-image">
-              <img src={heroImage} alt="Doctor 2" />
+            <div className="hero-image-item">
+              <img
+                src={heroImage}
+                alt="Doctor 2"
+                className="hero-image-circle"
+              />
+              <div className="hero-image-caption">
+                <h4 className="doctor-name">
+                  dr. Unita Magdalena, CET, CAPC, CEPC
+                </h4>
+              </div>
             </div>
           </div>
         </div>
