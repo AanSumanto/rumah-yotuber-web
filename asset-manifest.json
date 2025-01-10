@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/rumah-yotuber-web/static/css/main.eb32be39.css",
-    "main.js": "/rumah-yotuber-web/static/js/main.1242e51a.js",
+    "main.css": "/rumah-yotuber-web/static/css/main.4a939174.css",
+    "main.js": "/rumah-yotuber-web/static/js/main.dceef1dc.js",
     "static/js/488.49156c2e.chunk.js": "/rumah-yotuber-web/static/js/488.49156c2e.chunk.js",
     "static/media/group2.jpeg": "/rumah-yotuber-web/static/media/group2.165c407d796a8e0a3a3c.jpeg",
     "static/media/fa-solid-900.ttf": "/rumah-yotuber-web/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
@@ -17,12 +17,12 @@
     "static/media/fa-v4compatibility.ttf": "/rumah-yotuber-web/static/media/fa-v4compatibility.da94ef451f4969af06e6.ttf",
     "static/media/fa-v4compatibility.woff2": "/rumah-yotuber-web/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
     "index.html": "/rumah-yotuber-web/index.html",
-    "main.eb32be39.css.map": "/rumah-yotuber-web/static/css/main.eb32be39.css.map",
-    "main.1242e51a.js.map": "/rumah-yotuber-web/static/js/main.1242e51a.js.map",
+    "main.4a939174.css.map": "/rumah-yotuber-web/static/css/main.4a939174.css.map",
+    "main.dceef1dc.js.map": "/rumah-yotuber-web/static/js/main.dceef1dc.js.map",
     "488.49156c2e.chunk.js.map": "/rumah-yotuber-web/static/js/488.49156c2e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb32be39.css",
-    "static/js/main.1242e51a.js"
+    "static/css/main.4a939174.css",
+    "static/js/main.dceef1dc.js"
   ]
 }
