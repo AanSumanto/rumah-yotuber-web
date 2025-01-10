@@ -1,5 +1,5 @@
-// components/Header.js
 import React, { useState } from "react";
+import { Link } from "react-router-dom"; // Import Link dari React Router
 import "../style/Header.css";
 import Logo from "../assets/logo2.png";
 
@@ -8,6 +8,12 @@ function Header() {
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
+  };
+
+  const closeMenu = () => {
+    if (isMenuOpen) {
+      setIsMenuOpen(false);
+    }
   };
 
   return (
@@ -22,22 +28,35 @@ function Header() {
         </button>
         <nav className={`nav ${isMenuOpen ? "open" : "web-view"}`}>
           {isMenuOpen && (
-            <div className="close-menu" onClick={toggleMenu}>
+            <div className="close-menu" onClick={closeMenu}>
               ✕
             </div>
           )}
           <ul className="nav-list">
             <li>
-              <a href="#hero">Home</a>
+              <Link to="/" onClick={closeMenu}>
+                Home
+              </Link>
             </li>
             <li>
-              <a href="#services">Services</a>
+              <a href="#services" onClick={closeMenu}>
+                Services
+              </a>
             </li>
             <li>
-              <a href="#testimonials">Testimonials</a>
+              <a href="#testimonials" onClick={closeMenu}>
+                Testimonials
+              </a>
             </li>
             <li>
-              <a href="#contact">Contact</a>
+              <a href="#contact" onClick={closeMenu}>
+                Contact
+              </a>
+            </li>
+            <li>
+              <Link to="/about-coaching" onClick={closeMenu}>
+                About Coaching
+              </Link>
             </li>
           </ul>
         </nav>

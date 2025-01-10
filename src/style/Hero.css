@@ -1,5 +1,5 @@
 .hero {
-  padding: 15px 0;
+  padding: 175px 0;
   background-color: #e8fdf5;
 }
 
@@ -74,9 +74,27 @@
   text-align: center; /* Pastikan gambar berada di tengah */
 }
 
-.hero-image img {
+/* .hero-image img {
   max-width: 100%;
   height: auto;
+} */
+
+.hero-images {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap; /* Responsif: membungkus gambar di perangkat kecil */
+}
+
+.hero-image img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%; /* Opsional: membuat gambar menjadi lingkaran */
+}
+
+.no-underline {
+  text-decoration: none;
 }
 
 @media (max-width: 768px) {
@@ -94,6 +112,10 @@
     margin: -45px auto; /* Tambahkan jarak antar elemen */
   }
 
+  .hero {
+    padding: 35px 0;
+    background-color: #e8fdf5;
+  }
   
   
 }

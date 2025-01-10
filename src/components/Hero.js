@@ -1,6 +1,9 @@
+// export default Hero;
 import React from "react";
+import { Link } from "react-router-dom";
 import "../style/Hero.css";
-import heroImage from "../assets/hero-image.png";
+import heroImage from "../assets/hero-image3.png";
+import heroImage2 from "../assets/hero-image4.png";
 
 function Hero() {
   return (
@@ -17,13 +20,23 @@ function Hero() {
             </p>
             <div className="hero-buttons">
               <button className="btn btn-appointment">Get Appointment</button>
-              <button className="btn btn-specialist">Find Specialist</button>
+              <Link
+                to="/about-coaching"
+                className="btn btn-specialist no-underline"
+              >
+                Learn About Coaching
+              </Link>
             </div>
           </div>
 
-          {/* Gambar hero */}
-          <div className="hero-image">
-            <img src={heroImage} alt="Doctor" />
+          {/* Kontainer Gambar Hero */}
+          <div className="hero-images">
+            <div className="hero-image">
+              <img src={heroImage2} alt="Doctor 1" />
+            </div>
+            <div className="hero-image">
+              <img src={heroImage} alt="Doctor 2" />
+            </div>
           </div>
         </div>
       </div>
