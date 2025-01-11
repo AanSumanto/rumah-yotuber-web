@@ -15,7 +15,7 @@
     font-weight: bold;
     text-align: center;
     margin-bottom: 30px;
-    color:  #00b894;
+    /* color:  #00b894; */
   }
   
   .about-section {
@@ -26,7 +26,7 @@
     font-size: 1.8rem;
     font-weight: bold;
     margin-bottom: 20px;
-    color: #00b894;
+    /* color: #00b894; */
   }
   
   .about-paragraph {
@@ -95,6 +95,31 @@
     color: #555;
     text-align: justify; /* Jika ada teks dalam card */
   }
+
+  /* Learning Pyramid Section */
+  .learning-pyramid-section {
+    margin-top: 40px;
+  }
+  
+  .learning-pyramid-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .learning-pyramid-description {
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #666;
+  }
+  
+  .learning-pyramid-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
   
   /* Responsiveness */
   @media (max-width: 768px) {
@@ -109,6 +134,14 @@
     .about-cards {
       flex-direction: column;
       gap: 15px;
+    }
+
+    .learning-pyramid-title {
+      font-size: 22px;
+    }
+  
+    .learning-pyramid-description {
+      font-size: 14px;
     }
   }
   

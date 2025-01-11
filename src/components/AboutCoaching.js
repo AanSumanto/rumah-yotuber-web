@@ -1,6 +1,7 @@
 import React from "react";
 import "../style/AboutCoaching.css";
 import { FaCheckCircle } from "react-icons/fa";
+import pyramidImage from "../assets/learning-pyramid.jpeg"; // Tambahkan gambar ke folder assets
 
 function AboutCoaching() {
   return (
@@ -99,6 +100,21 @@ function AboutCoaching() {
               <FaCheckCircle className="icon" /> Rasio keuntungan dan kerugian
             </li>
           </ul>
+        </div>
+
+        {/* Tambahkan Learning Pyramid */}
+        <div className="learning-pyramid-section">
+          <h2 className="learning-pyramid-title">The Learning Pyramid</h2>
+          <p className="learning-pyramid-description">
+            Piramida pembelajaran ini menunjukkan tingkat retensi pengetahuan
+            berdasarkan metode pembelajaran, dari ceramah hingga mengajar orang
+            lain.
+          </p>
+          <img
+            src={pyramidImage}
+            alt="Learning Pyramid"
+            className="learning-pyramid-image"
+          />
         </div>
       </div>
     </section>
