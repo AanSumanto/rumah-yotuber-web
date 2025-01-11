@@ -1,42 +1,58 @@
 import React from "react";
 import "../style/Reason.css";
-import group from "../assets/group2.jpeg";
+import group from "../assets/group2.png";
 
 function Reason() {
+  const reasons = [
+    {
+      title: "Kesehatan Spiritual",
+      description:
+        "Kami membantu Anda mencapai keseimbangan spiritual melalui pendekatan holistik.",
+      icon: "🙏",
+    },
+    {
+      title: "Kesehatan Mental",
+      description:
+        "Memberikan konseling dan terapi profesional untuk menjaga kesehatan mental Anda.",
+      icon: "🧠",
+    },
+    {
+      title: "Pendidikan & Karir",
+      description:
+        "Dukungan untuk membangun pendidikan dan karir yang lebih baik.",
+      icon: "🎓",
+    },
+    {
+      title: "Kemerdekaan Finansial",
+      description:
+        "Solusi dan strategi untuk membantu Anda mencapai kebebasan finansial.",
+      icon: "💰",
+    },
+  ];
+
   return (
     <section className="reason-section">
       <div className="reason-container">
         <div className="reason-text">
-          <h2>Why Should you take our services</h2>
+          <h2>Kenapa Harus Memilih Layanan Kami?</h2>
           <p>
-            Eu sit proin amet quis malesuada vitae elit. Vel consectetur nibh
-            quis ullamcorper quis. Quam enim tortor, id sed
+            Kami menyediakan layanan yang dirancang untuk mendukung
+            kesejahteraan Anda di berbagai aspek kehidupan.
           </p>
         </div>
         <div className="reason-content">
           <div className="reason-image">
-            <img
-              src={group} // Ganti dengan URL gambar Anda
-              alt="Classroom Discussion"
-            />
+            <img src={group} alt="Group Activity" />
           </div>
           <div className="reason-items">
-            <ReasonItem
-              title="Experience"
-              description="Eu sit proin amet quis malesuada vitae elit. Vel consectetur nibh quis ullamcorper quis. Quam enim tortor, id sed."
-            />
-            <ReasonItem
-              title="Commitment"
-              description="Eu sit proin amet quis malesuada vitae elit. Vel consectetur nibh quis ullamcorper quis. Quam enim tortor, id sed."
-            />
-            <ReasonItem
-              title="Facilities"
-              description="Eu sit proin amet quis malesuada vitae elit. Vel consectetur nibh quis ullamcorper quis. Quam enim tortor, id sed."
-            />
-            <ReasonItem
-              title="Relationships"
-              description="Eu sit proin amet quis malesuada vitae elit. Vel consectetur nibh quis ullamcorper quis. Quam enim tortor, id sed."
-            />
+            {reasons.map((reason, index) => (
+              <ReasonItem
+                key={index}
+                title={reason.title}
+                description={reason.description}
+                icon={reason.icon}
+              />
+            ))}
           </div>
         </div>
       </div>
@@ -44,11 +60,11 @@ function Reason() {
   );
 }
 
-function ReasonItem({ title, description }) {
+function ReasonItem({ title, description, icon }) {
   return (
     <div className="reason-item">
       <h3>
-        {title} <span>✔️</span>
+        {icon} {title}
       </h3>
       <p>{description}</p>
     </div>

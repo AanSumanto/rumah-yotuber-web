@@ -56,7 +56,7 @@ function Testimonials() {
   return (
     <section id="testimonials" className="testimonials">
       <div className="container-testimonial">
-        <h2 className="testimonials-title">What Our Clients Say</h2>
+        <h2 className="testimonials-title">Apa Kata Klien Kami</h2>
         <div className="carousel-wrapper">
           {/* Button for previous testimonial */}
           <button className="carousel-btn prev-btn" onClick={handlePrev}>

@@ -94,6 +94,10 @@
     margin-top: 20px;
   }
   
+  [id] {
+    scroll-margin-top: 80px; /* Sesuaikan dengan tinggi header jika tetap di atas */
+  }
+
   /* Responsive */
   @media (max-width: 768px) {
     .footer-container {

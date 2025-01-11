@@ -1,6 +1,8 @@
 import React from "react";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "../style/Footer.css";
+import { HashLink } from "react-router-hash-link";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -47,19 +49,25 @@ function Footer() {
           <h4>Quick Links</h4>
           <ul>
             <li>
-              <a href="/home">Home</a>
+              <HashLink to="/">Home</HashLink>
             </li>
             <li>
-              <a href="/about">About</a>
+              <Link to="/about-coaching">About Coaching</Link>
             </li>
             <li>
-              <a href="/doctors">Doctors</a>
+              <HashLink smooth to="/#testimonials">
+                Testimonials
+              </HashLink>
             </li>
             <li>
-              <a href="/services">Services</a>
+              <HashLink smooth to="/#services">
+                Services
+              </HashLink>
             </li>
             <li>
-              <a href="/contact">Contact</a>
+              <HashLink smooth to="/#contact">
+                Contact
+              </HashLink>
             </li>
           </ul>
         </div>
@@ -67,19 +75,19 @@ function Footer() {
           <h4>Services</h4>
           <ul>
             <li>
-              <a href="/vaccination">Vaccination</a>
+              <a href="/vaccination">Kesehatan Mental</a>
             </li>
             <li>
-              <a href="/ndd">NDD</a>
+              <a href="/ndd">Kesehatan Spiritual</a>
             </li>
             <li>
-              <a href="/filled-prescription">Filled Prescription As Is</a>
+              <a href="/filled-prescription">Kesehatan Seksual</a>
             </li>
             <li>
-              <a href="/patient-referral">Patient Referral</a>
+              <a href="/patient-referral">Pengembangan Diri</a>
             </li>
             <li>
-              <a href="/other-roofing">Other roofing</a>
+              <a href="/other-roofing">Pendidikan & Karir</a>
             </li>
           </ul>
         </div>
