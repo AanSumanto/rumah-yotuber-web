@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/rumah-yotuber-web/static/css/main.628ecf61.css",
-    "main.js": "/rumah-yotuber-web/static/js/main.d7b28cac.js",
+    "main.css": "/rumah-yotuber-web/static/css/main.6d5df038.css",
+    "main.js": "/rumah-yotuber-web/static/js/main.ad516d7f.js",
     "static/js/488.49156c2e.chunk.js": "/rumah-yotuber-web/static/js/488.49156c2e.chunk.js",
     "static/media/group2.png": "/rumah-yotuber-web/static/media/group2.462267efcfa026bbb68a.png",
     "static/media/fa-solid-900.ttf": "/rumah-yotuber-web/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
@@ -11,18 +11,19 @@
     "static/media/fa-brands-400.woff2": "/rumah-yotuber-web/static/media/fa-brands-400.c210719e60948b211a12.woff2",
     "static/media/logo2.png": "/rumah-yotuber-web/static/media/logo2.733e8e1f66dae414d628.png",
     "static/media/hero-image4.png": "/rumah-yotuber-web/static/media/hero-image4.b879e3e69cf61fa6b5a1.png",
+    "static/media/learning-pyramid.jpeg": "/rumah-yotuber-web/static/media/learning-pyramid.fb5a78dd9e0d5fbd08fb.jpeg",
     "static/media/fa-regular-400.ttf": "/rumah-yotuber-web/static/media/fa-regular-400.914997e1bdfc990d0897.ttf",
     "static/media/fa-regular-400.woff2": "/rumah-yotuber-web/static/media/fa-regular-400.89999bdf5d835c012025.woff2",
     "static/media/doctor-2.png": "/rumah-yotuber-web/static/media/doctor-2.833d4e5c323967b521b7.png",
     "static/media/fa-v4compatibility.ttf": "/rumah-yotuber-web/static/media/fa-v4compatibility.da94ef451f4969af06e6.ttf",
     "static/media/fa-v4compatibility.woff2": "/rumah-yotuber-web/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
     "index.html": "/rumah-yotuber-web/index.html",
-    "main.628ecf61.css.map": "/rumah-yotuber-web/static/css/main.628ecf61.css.map",
-    "main.d7b28cac.js.map": "/rumah-yotuber-web/static/js/main.d7b28cac.js.map",
+    "main.6d5df038.css.map": "/rumah-yotuber-web/static/css/main.6d5df038.css.map",
+    "main.ad516d7f.js.map": "/rumah-yotuber-web/static/js/main.ad516d7f.js.map",
     "488.49156c2e.chunk.js.map": "/rumah-yotuber-web/static/js/488.49156c2e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.628ecf61.css",
-    "static/js/main.d7b28cac.js"
+    "static/css/main.6d5df038.css",
+    "static/js/main.ad516d7f.js"
   ]
 }
